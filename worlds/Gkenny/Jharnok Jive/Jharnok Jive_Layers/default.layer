@@ -1,0 +1,28 @@
+SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
+ coords 2973.606 320.93 365.601
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2967.623 326.656 459.149
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 7
+   m_iStartingMinutes 20
+   m_iRangeHoursStart 0
+   m_iRangeHoursEnd 23
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6966ECDE0010460B}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 7
+     m_iStartingMinutes 20
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 20
+   m_iSetMonth 6
+   m_iSetYear 1984
+  }
+ }
+ coords 2993.5 320.001 396.56
+}
