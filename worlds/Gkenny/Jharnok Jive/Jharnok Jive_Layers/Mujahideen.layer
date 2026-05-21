@@ -1,0 +1,93 @@
+SCR_AIGroup : "{3FC3163815DCB3AC}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Rifle.et" {
+ coords 2836.94 387.355 738.431
+ m_aUnitPrefabSlots {
+  "{BB1FF87FE2C68BB9}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_FDC_1.et"
+  "{3BE83B3783259531}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mortar_1.et"
+  "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  "{020C7EF03183EF2B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_AutoRifle.et"
+  "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+  "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+  "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+  "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+  "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+ }
+ m_bSetPlayable 1
+}
+GenericEntity : "{690D00E1D22C02DF}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Foundation_Mortar_USSR.et" {
+ coords 2852.521 385.143 740.734
+ angles 0 137.329 0
+ {
+  GenericEntity {
+   ID "60B8D36A59BEEA13"
+   components {
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     "faction affiliation" "GC_MUJ"
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aConsumers {
+      SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+       m_eResourceType INVALID
+       m_fBuyMultiplier 0
+      }
+     }
+     m_aGenerators {
+      SCR_ResourceGeneratorServicePoint "{5E5AD30768BBE3D1}" {
+       m_eResourceType INVALID
+      }
+     }
+    }
+    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+     Enabled 1
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     MultiSlots {
+      MultiSlotConfiguration "{69697C677426788B}" {
+       NumSlots 2
+      }
+      MultiSlotConfiguration "{69697C67AE3809AB}" {
+      }
+     }
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     InitialInventoryItems {
+      ItemsInitConfigurationItem "{69697C67BF67718A}" {
+       PrefabsToSpawn {
+        "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
+        "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{EBBC859CCD94D96D}Prefabs/Props/EmptyStorages/USSR_AmmoBox_empty.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{6530845A09302DE0}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69697C654B117585}" {
+     SlotTemplate InventoryStorageSlot OFRound {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{69697C622B088FD0}" {
+     SlotTemplate InventoryStorageSlot Smoke {
+      Prefab "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{69697C622BB13B13}" {
+     SlotTemplate InventoryStorageSlot Illum {
+      Prefab "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+ }
+ coords 2851.79 385.115 738.808
+ angles 0 50.062 0
+}
