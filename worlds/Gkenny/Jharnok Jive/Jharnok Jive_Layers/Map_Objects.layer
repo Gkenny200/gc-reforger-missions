@@ -1,0 +1,209 @@
+PK_EntityDeleter {
+ coords 3762.669 280 425.442
+ m_fRadius 45
+ m_prefabFilterList {
+  "{ACE2E2157E55531B}Prefabs/Structures/Bulding/HouseK/House_K_3_EP1.et"
+  "{5726FA9A0238DFA8}Prefabs/Structures/Bulding/HouseK/House_K_7_EP1.et"
+  "{795F425FFB259B06}Prefabs/Structures/Industrial/Houses/Sawmill_E_01/Dst/Silo_Tower_Sawmill_01_Ruin.et"
+ }
+}
+GenericEntity : "{01EB4A20B6BB6390}Prefabs/Structures/Misc/Nargile.et" {
+ coords 3774.237 279.938 444.363
+ angles 0 179.766 0
+}
+GenericEntity : "{028D9156F90205DE}Prefabs/Props/Military/Camps/ConstructionMaterialPacked_WoodPlanks_01_US.et" {
+ coords 3773.503 280 446.705
+ angles 0 4.379 0
+}
+$grp GenericEntity : "{051A6522307D9476}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_TrenchSegment_01_short.et" {
+ {
+  coords 3738.441 279.768 443.356
+  angles -23.535 0 0
+ }
+ {
+  coords 3742.228 279.98 442.351
+  angles -8.894 26.068 6.01
+ }
+}
+GenericEntity : "{06473ABB81176587}Prefabs/Props/Forest/WoodPile/WoodPile_02_end_B.et" {
+ coords 3775.768 280.066 446.737
+ angles 0 -89.621 0
+}
+SCR_DestructibleBuildingEntity : "{0A7F65814BBE3771}Prefabs/Structures/Bulding/HouseK/House_K_3_EP1_Full.et" {
+ coords 3763.972 280 441.78
+ angles 0 -86 0
+}
+GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
+ coords 3760.45 280.034 408.522
+ angles 0 93.061 0
+ {
+  GenericEntity {
+   ID "5702F83C5422A009"
+   coords -0.044 0 0.385
+   angles 0 91.111 0
+  }
+  GenericEntity {
+   ID "5702F83C5422A00B"
+   coords 0 0.805 0
+  }
+  GenericEntity {
+   ID "5702F83C5422A00D"
+   coords -0.066 0 -0.456
+   angles 0 91.111 0
+  }
+ }
+}
+GenericEntity : "{1649BD4423178DA9}Prefabs/Structures/Misc/Torba.et" {
+ coords 3780.4 280.034 446.628
+ angles 0 -29.962 0
+}
+StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchSegment_01_short.et" {
+ Flags 0x100000 0
+ coords 3735.054 -0.139 444.055
+ angles -14.693 18.889 0
+}
+GenericEntity : "{21412366D258AC4C}Prefabs/Props/Forest/WoodPile/WoodPile_02_B.et" {
+ coords 3772.38 279.934 444.892
+ angles 0 -89.621 0
+}
+GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_large.et" {
+ coords 3756.85 279.957 411.809
+ angles 0 52.115 0
+}
+$grp GenericEntity : "{2A8D029D69C5281E}Prefabs/Structures/Misc/Chair.et" {
+ {
+  coords 3773.653 279.974 445.053
+  angles 0 47.766 0
+ }
+ {
+  coords 3775.394 279.994 444.743
+  angles 0 112.766 0
+ }
+}
+GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.et" {
+ coords 3755.466 280 410.268
+ angles 0 -38.929 0
+}
+GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+ coords 3778.329 280.034 433.337
+ angles 0 60.038 0
+}
+GenericEntity : "{56C3CCA6D6374353}Prefabs/Structures/Market/hut2.et" {
+ coords 3774.485 280.108 444.993
+ angles -0.852 -175.753 -0.277
+ scale 0.818
+}
+StaticModelEntity : "{7CF4F44DAD409258}Prefabs/Structures/Military/Fortifications/Trenches/VehicleDugout_BTR.et" {
+ coords 3717.928 279.745 436.111
+ angles 0 -43.842 0
+}
+$grp GenericEntity : "{7F8DB0D9FEE38305}Prefabs/Structures/Market/hut.et" {
+ {
+  coords 3773.788 280 403.823
+  angles 0 -176.917 0
+ }
+ {
+  coords 3771.328 280 403.948
+  angles 0 -176.917 0
+ }
+}
+GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_02.et" {
+ coords 3773.047 279.886 442.788
+ angles 0 179.379 0
+ {
+  GameEntity {
+   ID "58ECA7C45EDE5C37"
+   coords 0.201 0.806 0.256
+   angles 0 -43.253 0
+  }
+  GenericEntity {
+   ID "570481CA816747AD"
+   coords 0.065 0.806 0.555
+   angles 0 -140.166 0
+  }
+  GenericEntity {
+   ID "570481CA816747AB"
+   coords 0.018 0.804 -0.267
+   angles 0 177.469 0
+  }
+ }
+}
+PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_color 0.456 0.456 0.456 1
+   m_lineColor 0.205 0.205 0.205 1
+   m_lineWidth 1
+  }
+ }
+ coords 3778.985 280 440.028
+ Points {
+  ShapePoint "{696B70F6E5C853FB}" {
+   Position 2.739 0 4.371
+  }
+  ShapePoint "{696B70F6E3F71B2B}" {
+   Position 1.91 0 -6.036
+  }
+  ShapePoint "{696B70F6E1F986D7}" {
+   Position 13.683 0 -6.864
+  }
+  ShapePoint "{696B70F6EFEFB619}" {
+   Position 14.573 0 6.087
+  }
+  ShapePoint "{696B70F6EBE364C8}" {
+   Position 4.973 0 6.704
+  }
+ }
+}
+$grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ {
+  coords 3775.028 280.034 438.48
+  angles 0 57.651 0
+ }
+ {
+  components {
+   Hierarchy "{56A6E94EFAF7B101}" {
+   }
+  }
+  coords 3776.219 280.841 437.583
+  angles 0 -99.468 0
+ }
+}
+$grp GenericEntity : "{B724309521EEFC42}Prefabs/Props/Agriculture/WaterTank_01_v2.et" {
+ {
+  coords 3755.677 280 416.688
+ }
+ {
+  coords 3758.469 280 416.635
+ }
+}
+SCR_DestructibleBuildingEntity : "{C1EAE57BFC75D349}Prefabs/Structures/Bulding/HouseK/House_K_8_EP1_full.et" {
+ coords 3787.037 280 411.918
+ angles 0 92.509 0
+}
+GenericEntity : "{C67A378521482995}Prefabs/Props/Furniture/Rack_03.et" {
+ coords 3780.521 280.034 429.684
+ angles 0 60.038 0
+}
+GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
+ coords 3776.608 280.034 434.357
+ angles 0 -29.962 0
+}
+GenericEntity : "{DAF6B1C250F964B0}Prefabs/Structures/Market/StandCar.et" {
+ coords 3749.628 279.964 440.653
+ angles 0 155.651 0
+}
+$grp GenericEntity : "{E5C8E180652682BC}Prefabs/Props/Industrial/GasTank_01_base.et" {
+ {
+  coords 3776.009 280.034 436.733
+  angles 0 -29.962 0
+ }
+ {
+  coords 3778.693 279.56 432.592
+  angles 0 -29.962 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{F2BFC2A25264EC0C}Prefabs/Structures/Bulding/HouseC/House_C_4_Police.et" {
+ coords 3789.043 280.41 441.24
+ angles 0 93.569 0
+}

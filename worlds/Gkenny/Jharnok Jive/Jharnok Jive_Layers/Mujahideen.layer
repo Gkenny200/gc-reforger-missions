@@ -13,55 +13,13 @@ SCR_AIGroup : "{3FC3163815DCB3AC}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Rifle.et
  }
  m_bSetPlayable 1
 }
-GenericEntity : "{690D00E1D22C02DF}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Foundation_Mortar_USSR.et" {
- coords 2852.521 385.143 740.734
- angles 0 137.329 0
- {
-  GenericEntity {
-   ID "60B8D36A59BEEA13"
-   components {
-    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-     "faction affiliation" "GC_MUJ"
-    }
-    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-     m_aConsumers {
-      SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
-       m_eResourceType INVALID
-       m_fBuyMultiplier 0
-      }
-     }
-     m_aGenerators {
-      SCR_ResourceGeneratorServicePoint "{5E5AD30768BBE3D1}" {
-       m_eResourceType INVALID
-      }
-     }
-    }
-    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-     Enabled 1
-    }
-    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
-     MultiSlots {
-      MultiSlotConfiguration "{69697C677426788B}" {
-       NumSlots 2
-      }
-      MultiSlotConfiguration "{69697C67AE3809AB}" {
-      }
-     }
-    }
-    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
-     InitialInventoryItems {
-      ItemsInitConfigurationItem "{69697C67BF67718A}" {
-       PrefabsToSpawn {
-        "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
-        "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
-        "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
-       }
-      }
-     }
-    }
-   }
-  }
- }
+GenericEntity : "{B3C3E866F3AFFA03}Prefabs/Structures/Military/Camps/Foundations/Foundation_TentUSSR_01.et" {
+ coords 2850.03 385.175 739.152
+ angles 0 49.885 0
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 2850.385 385.16 739.674
+ angles 0 143.573 0
 }
 GenericEntity : "{EBBC859CCD94D96D}Prefabs/Props/EmptyStorages/USSR_AmmoBox_empty.et" {
  components {
@@ -88,6 +46,6 @@ GenericEntity : "{EBBC859CCD94D96D}Prefabs/Props/EmptyStorages/USSR_AmmoBox_empt
    }
   }
  }
- coords 2851.79 385.115 738.808
+ coords 2853.115 385.115 739.917
  angles 0 50.062 0
 }
